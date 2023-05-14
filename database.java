@@ -108,7 +108,6 @@ public class database {
         bw.write("^ID^"+tempID+"^CACHED_PRICE^"+0+"^CACHED_PRICE^END^"+"ID^"+tempID+"^");
         bw.close();
         System.out.println();
-        System.out.println("[Debug]Zjebalo sie no i co z tego ,przefiltrujesz to :clown_face:");
 
     }
 
@@ -209,9 +208,7 @@ public class database {
                 checkPrice.main(findItem.find(tempName));
                 String tmpprice = checkPrice.finalPrice;
 
-                ////TODO NEED TO DECIDE HOW YOU ARE GOING TO GIVE TO USER INFORMATION ABOUT CURRENCY
-                ////TODO AND HOW HE PICKS IT ,NOW IT AUTOMATICALLY GIVES IN PLN WITHOUT ZL
-                ////TODO SOMEWHERE IN GENERATING LINK
+               
                 tmpprice = tmpprice.replaceAll("zł","");
                 tmpprice = tmpprice.replaceAll(",",".");
 
