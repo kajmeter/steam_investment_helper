@@ -11,11 +11,11 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class mainScreen extends JFrame {
-    // add fetching image when auto searching
+
     public String workingInv = "Stickers";
     int longestWord;
 
-    // catch ioexception socket to json try then loading cached prices
+
 
     boolean refreshed = false;
 
