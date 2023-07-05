@@ -1,3 +1,4 @@
+<h1>!ABANDONED!</h1>
 <h2>Steam inventory helper
 
 <h4>! Note that this project is heavily wip (some functions are still to be implemented) and based on self made database structure. For debug reasons you need to change some executables 
